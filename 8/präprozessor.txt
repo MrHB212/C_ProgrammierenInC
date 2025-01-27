@@ -1,0 +1,7 @@
+1) Ausgabe 11, da a als Parameter für Zeile 2 verwendet wird und die 1 nach der Multiplikation hinzugefügt wird
+
+2) Ausgabe ist GREETING, da bei printf das GREETING in Anführungszeichen steht, ansonsten würde Hallo ausgegeben werden
+
+3) Es wird ein Fehler ausgegeben. Durch Zeile 2 wird jedes y mit 3 ersetzt. Somit steht statt int y = 5, int 3 = 5. Lässt man int y = 5 weg ist die Ausgabe Beide Gleich.
+
+4) Ausgabe ist "y: 5 def not defined". x ist sowieso nicht definiert, also wird Zeile 9 übersprungen. Bevor Zeile 15 ausgegeben wird wird die definition von def aufgehoben und Zeile 15 übersprungen.

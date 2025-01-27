@@ -1,0 +1,6 @@
+b(3,2) = Programm wird ohne Probleme ausgeführt, es wird 4 zurückgegeben.
+b(2,-1) = Programm gerät in eine Endlosschleife. k ist immer um 3 kleiner als n.
+b(4,1) = Programm wird ohne Probleme ausgeführt, es wird 4 zurückgegeben.
+b(1,0) = Da k beim Aufruf der Funktion 0 ist, wird direkt 1 zurückgegeben.
+b(0,1) = Programm wird ohne Probleme ausgeführt, es wird 1 zurückgegeben.
+b(0,0) = Programm wird ohne Probleme ausgeführt, es wird 1 zurückgegeben.

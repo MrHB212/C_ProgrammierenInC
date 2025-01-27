@@ -1,0 +1,4 @@
+Durch den Breakpoint kann man den Wert von i ablesen den er hat, nachdem im array ein Wert eingetragen wird.
+Dabei sieht man, das beim ersten durchgang bei array[0] der Wert 0 und beim zweiten Durchgang array[2] der Wert
+2 eingetragen wird. Pro durchlauf wird also ein Index im Array übersprungen. Da das Array nur deklariert 
+aber nicht definiert wurde, haben die übersprungenen Indizes einfach irgendwelche anderen Werte.

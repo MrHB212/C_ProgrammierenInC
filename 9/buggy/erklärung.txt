@@ -1,0 +1,7 @@
+1) Da in der Schleife 2 mal i++ gemacht wird bei jedem Durchlauf, wird jedes 2.Index übersprungen.
+   Und weil das Array nicht initialisert wurde, nehmen die Indizes an den Stellen zufällige Werte an.
+
+2) In der Schleife wird x immer größer. Die Schleife wird also so lange ausgeführt, bis die Variable
+   überläuft und den kleinsten möglichen Wert annimmt und durch x++ irgendwann die 0 erreicht.
+   Da die eingegebene Zahl in x gespeichert wird und diese verändert wird, kann die Zählung nicht wie
+   im Kommentar beschrieben durchgeführt werden. Es wird immer 0 ausgegeben.

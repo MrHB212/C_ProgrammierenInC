@@ -1,0 +1,4 @@
+Die Variablen in struct werden in 32 bit gespeichert, der Pointer von s1 in 64 bit.
+Wenn man über den Pointer s1 den Wert 89 zuweisen möchte, geschieht dass in 64 bit. Da allerdings
+s1 nur 32 Bits hat, werden die restlichen 0, die im 64 Bit stehen stattdessen in s2 reingeschrieben.
+Dadurch wird s1 = 89 und s2 = 0.

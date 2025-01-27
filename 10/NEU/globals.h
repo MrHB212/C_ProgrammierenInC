@@ -1,0 +1,2 @@
+#define LINE_COUNT 1000
+#define LINE_LENGTH 256

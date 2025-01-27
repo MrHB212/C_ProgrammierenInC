@@ -1,0 +1,5 @@
+1.) In module2.c Zeile 13 nimmt x den Wert 2 an (module1.c Zeile 6) und y den Wert 2 (module2.c Zeile 12)
+    
+2.) In module2.c Zeile 22 nimmt x den Wert aus module1.c Zeile 11 an und y den Wert 8 an (module2.c Zeile 7)
+    Da das y aus module1 als static deklariert wurde, kann dies nur in module 1 verwendet werden.
+

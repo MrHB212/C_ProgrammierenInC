@@ -1,0 +1,5 @@
+Die while Schleife wird so lange aus geführt bis x=0 ist. Das /0 hat einen Wert von 0.
+Da allerdings nirgendswo in der Schleife x kleiner wird und x immer größer, wird die Schleife so lange
+ausgeführt bis die Variable x durch einen Überlauf irgendwann bei 0 ankommt.
+Durch den Überlauf nimmt x die kleinste mögliche Zahl an und wird wieder durch die Schleife um 1 erhöht, bis
+x irgendwann den Wert 0 erhält.
